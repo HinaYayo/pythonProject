@@ -11,7 +11,7 @@ for i in range(2):
     for a in range(100):
         num = random.randint(0, 3)
         t.pencolor(Colors[num])
-        t.circle(50)
+        t.forward(a * 2)
         t.left(88)
 turtle.done()
 
