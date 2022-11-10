@@ -12,6 +12,6 @@ for guest in guests:
 print(guests[2] + "不能一起吃饭!" + "\n")
 guests[2] = 'Bob'
 for guest in guests:
-    print(guest + ", 我可以邀请你共进晚餐吗?")
+    print(guest + ", 我可以邀请你共进晚餐吗? ")
 
 
