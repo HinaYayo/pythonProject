@@ -2,7 +2,6 @@ import random
 import turtle
 t=turtle.Pen()
 Colors=['red','green','blue','black']
-t.circle(50)
 for i in range(360):
    num=random.randint(0,3)
    t.pencolor(Colors[num])
