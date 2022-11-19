@@ -6,14 +6,14 @@ t.colormode(255)
 t.speed()
 
 for i in range(1,5):
+    n=5-i
     t.penup()
-    t.goto(-i*20, -i * 20)
+    t.goto(-n*20, -n * 20)
     t.pendown()
-    t.color(random.randint(0,256),random.randint(0,256),random.randint(0,256))
-    #t.fillcolor('red')
-    #t.begin_fill()
+    t.fillcolor(random.randint(0,255),random.randint(0,255),random.randint(0,255))
+    t.begin_fill()
     for x in range(4):
-        t.forward(i*40)
+        t.forward(n*40)
         t.left(90)
-    #t.end_fill()
+    t.end_fill()
 t.done()

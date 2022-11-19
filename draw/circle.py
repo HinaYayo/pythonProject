@@ -1,10 +1,10 @@
 import turtle
 t=turtle.Pen()
 t.penup()
-t.goto(0,-100)
+t.goto(0,-50)
 t.pendown()
 t.fillcolor('red')
 t.begin_fill()
-t.circle(300)
+t.circle(100)
 t.end_fill()    
 turtle.done()
