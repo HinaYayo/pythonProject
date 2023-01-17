@@ -1,10 +1,7 @@
 import turtle as t#包含了t=turtle.Pen()
 import random
-
 t.hideturtle()#隐藏画笔
-t.colormode(255)
-t.speed()
-
+t.colormode(255)#调用三原色方法（0-255，0-255，0-255）
 for i in range(1,5):
     n=5-i
     t.penup()
